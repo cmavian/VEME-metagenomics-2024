@@ -19,7 +19,7 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 
 
-#### Setting up our folder for the analysis:
+### Setting up our folder for the analysis:
 
 1. going into home directory
 
