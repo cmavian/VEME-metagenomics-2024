@@ -159,7 +159,10 @@ After saving the files in the /database/user directory within the VM, they will 
 ## Downloading Files:
 Example: To download the sample.txt file from the /veme24 folder using MobaXterm, run the following command:
 
-$rsync -aP -e "ssh" veme@bagre.minas.fiocruz.br:/veme24/sample.txt /drives/c/Users/veme/Desktop
+```
+rsync -aP -e "ssh" veme@bagre.minas.fiocruz.br:/veme24/sample.txt /drives/c/Users/veme/Desktop
+```
+
 Use the rsync command to download the files or install an FTP client (such as FileZilla or WinSCP) on your local desktop.
 
 ## Alternative Option:
