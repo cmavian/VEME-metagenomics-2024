@@ -17,6 +17,9 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 ### 1. Connecting to the server to run the analysis:
 
+Using MobaXterm
+Username: veme 
+Password: J@k_bio24
 
 
 ### 2. Setting up our folder for the analysis:
@@ -148,4 +151,17 @@ for infile in *.krona
 		ktImportText ${infile} -o ${base}.html
         done
 ```
+### In MobaXterm, you can easily access the data.
 
+## Saving Files:
+After saving the files in the /database/user directory within the VM, they will appear in the /veme24 folder (server).
+
+## Downloading Files:
+Example: To download the sample.txt file from the /veme24 folder using MobaXterm, run the following command:
+
+$rsync -aP -e "ssh" veme@bagre.minas.fiocruz.br:/veme24/sample.txt /drives/c/Users/veme/Desktop
+Use the rsync command to download the files or install an FTP client (such as FileZilla or WinSCP) on your local desktop.
+
+## Alternative Option:
+Another option is to use the Windows Subsystem for Linux (WSL). 
+It allows you to run a GNU/Linux environment directly on Windows without the need to install additional transfer tools like PuTTY or others.
