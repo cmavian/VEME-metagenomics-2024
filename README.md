@@ -17,22 +17,9 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 ### 1. Connecting to the server to run the analysis:
 
-To access the data, use the /veme24 directory on the Bagre server:
-
-Via SSH:
-```
-rsync -aP veme@bagre.minas.fiocruz.br:/veme24/file .
-```
-
-Via FTP Client:(e.g., FileZilla):
-
-Host: bagre.minas.fiocruz.br
-
-Username: veme
+Username: veme 
 
 Password: J@k_bio24
-
-Remote Directory: /veme24
 
 
 ### 2. Setting up our folder for the analysis:
@@ -178,11 +165,26 @@ ls -l
 ## Downloading Files:
 Example: To download the sample.txt file from the /veme24 folder using MobaXterm, run the following command:
 
+Via SSH:
 ```
 rsync -aP -e "ssh" veme@bagre.minas.fiocruz.br:/veme24/sample.txt /drives/c/Users/veme/Desktop
 ```
 
 Use the rsync command to download the files or install an FTP client (such as FileZilla or WinSCP) on your local desktop.
+
+To access the data, use the /veme24 directory on the Bagre server:
+
+
+
+Via FTP Client:(e.g., FileZilla, MobaXterm):
+
+Host: bagre.minas.fiocruz.br
+
+Username: veme
+
+Password: J@k_bio24
+
+Remote Directory: /veme24
 
 ## Alternative Option:
 Another option is to use the Windows Subsystem for Linux (WSL). 
