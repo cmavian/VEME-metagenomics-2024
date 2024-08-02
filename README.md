@@ -17,9 +17,18 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 ### 1. Connecting to the server to run the analysis:
 
-Using MobaXterm
-Username: veme 
+To access the data, use the /veme24 directory on the Bagre server:
+
+Via SSH:
+```
+rsync -aP veme@bagre.minas.fiocruz.br:/veme24/file .
+```
+
+Via FTP Client:(e.g., FileZilla):
+Host: bagre.minas.fiocruz.br
+Username: veme
 Password: J@k_bio24
+Remote Directory: /veme24
 
 
 ### 2. Setting up our folder for the analysis:
