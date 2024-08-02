@@ -17,7 +17,8 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 ### 1. Connecting to the server to run the analysis:
 
-Username: veme 
+Using Windows, Putty,  connect to Host: bagre.minas.fiocruz.br and set Port to 22. 
+You will be asked for the username, which is "veme" . When connected, type in the terminal "ssh veme@10.31.25.231"
 
 Password: J@k_bio24
 
