@@ -156,6 +156,11 @@ for infile in *.krona
 ## Saving Files:
 After saving the files in the /database/user directory within the VM, they will appear in the /veme24 folder (server).
 
+```
+cp *.html /database/user
+
+```
+
 ## Downloading Files:
 Example: To download the sample.txt file from the /veme24 folder using MobaXterm, run the following command:
 
