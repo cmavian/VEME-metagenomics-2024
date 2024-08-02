@@ -25,9 +25,13 @@ rsync -aP veme@bagre.minas.fiocruz.br:/veme24/file .
 ```
 
 Via FTP Client:(e.g., FileZilla):
+
 Host: bagre.minas.fiocruz.br
+
 Username: veme
+
 Password: J@k_bio24
+
 Remote Directory: /veme24
 
 
