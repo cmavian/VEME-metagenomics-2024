@@ -158,7 +158,6 @@ After saving the files in the /database/user directory within the VM, they will 
 
 ```
 cp *.html /database/user
-
 ```
 
 ## Downloading Files:
