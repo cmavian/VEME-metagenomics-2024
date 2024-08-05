@@ -17,11 +17,21 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 ### 1. Connecting to the server to run the analysis:
 
-Using MobaXterm connect to Host: ssh veme@bagre.minas.fiocruz.br Password: J@k_bio24
+Using MobaXterm connect to Host: 
 
-Then we connect to the virtual machine: user35 Password: J@k_bio24
+```
+ssh veme@bagre.minas.fiocruz.br
+```
+Password: J@k_bio24
 
-let's activate the virtual machine:
+Then we connect to the virtual machine: 
+
+```
+user35
+``` 
+Password: J@k_bio24
+
+Now let's activate the virtual machine:
 ```
 conda activate veme
 ```
