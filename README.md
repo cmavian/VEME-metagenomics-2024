@@ -19,7 +19,7 @@ In this tutorial we will learn how to taxonomically classify and visualize our m
 
 Using MobaXterm connect to Host: ssh veme@bagre.minas.fiocruz.br Password: J@k_bio24
 
-Then we connect to the virtual machine: ssh veme@10.31.25.231 Password: J@k_bio24
+Then we connect to the virtual machine: user35 Password: J@k_bio24
 
 
 ### 2. Setting up our folder for the analysis:
