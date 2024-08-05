@@ -161,17 +161,20 @@ for infile in *.krona
 After saving the files in the /database/user directory within the VM, they will appear in the /veme24 folder (server).
 
 ```
-cp *.html /database/user
-cd /database/user
+cp *.html /database/users
+cd /database/users
 ls -l
+exit
 ```
 
 ## Downloading Files:
+Open a new terminal
 Example: To download the sample.txt file from the /veme24 folder using MobaXterm, run the following command:
 
 Via SSH:
 ```
-rsync -aP -e "ssh" veme@bagre.minas.fiocruz.br:/veme24/sample.txt /drives/c/Users/veme/Desktop
+rsync -aP -e "ssh" veme@bagre.minas.fiocruz.br:/veme24/ /drives/c/Users/Administrator/Desktop
+Password: J@k_bio24
 ```
 
 Use the rsync command to download the files or install an FTP client (such as FileZilla or WinSCP) on your local desktop.
