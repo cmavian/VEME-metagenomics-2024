@@ -21,6 +21,10 @@ Using MobaXterm connect to Host: ssh veme@bagre.minas.fiocruz.br Password: J@k_b
 
 Then we connect to the virtual machine: user35 Password: J@k_bio24
 
+let's activate the virtual machine:
+```
+conda activate veme
+```
 
 ### 2. Setting up our folder for the analysis:
 
